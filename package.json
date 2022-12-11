@@ -1,0 +1,30 @@
+{
+  "name": "Blogging-Site",
+  "version": "1.0.0",
+  "description": "Blogging Site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamsauravkamble/Project-1.git"
+  },
+  "keywords": [
+    "git"
+  ],
+  "author": "sauravkamble",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamsauravkamble/Project-1/issues"
+  },
+  "homepage": "https://github.com/iamsauravkamble/Project-1#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.7.3",
+    "nodemon": "^2.0.20"
+  }
+}
